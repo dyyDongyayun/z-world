@@ -1,0 +1,123 @@
+@charset "utf-8";
+/*页脚*/
+.footer-first{
+	width: 100%;
+	margin: 0 auto;
+
+	height: 223px;
+	background: #f5f5f5;
+	padding-left: 95px;
+	
+}
+.footer-second{
+	height: 264px;
+	background: #333333;
+	padding-left: 95px;
+	
+}
+.footer-first ul li{
+	float: left;
+	padding: 0 33px;
+	margin-top: 28px;
+	margin-bottom: 61px;
+	background: url(../img/tiao.jpg) no-repeat right;
+}
+.footer-first ul li:last-of-type{
+	background: none;
+}
+.footer-first ul li a{
+	font-size: 18px;
+	color: black;
+}
+.footer-div{
+	width: 410px;
+	float: left;
+}
+.footer-div img{
+	float: left;
+	margin-right: 10px;
+}
+.footer-div h3{
+	font-size: 14px;
+}
+.footer-div p{
+	font-size: 12px;
+	color: #b8a195;
+	line-height: 18px;
+}
+
+#footer{
+	height: 264px;
+	background: #333333;
+	color: white;
+	padding-left: 95px;
+}
+.footer-top{
+	height: 143px;
+}
+.footer-top>div{
+	float: left;
+	margin-top: 47px;
+	
+}
+.footer-center{
+	width: 538px;
+	font-size: 13px;
+	margin: 0 26px 0 95px;
+}
+.footer-right span:first-of-type{
+	border: none;
+	line-height: 50px;
+	height: 50px;
+	width: 70px;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+.footer-right span:nth-of-type(2) a{
+	background: url(../img/phone.png) no-repeat center;
+} 
+.footer-right span:nth-of-type(3) a{
+	background: url(../img/wechat1.png) no-repeat center;
+} 
+.footer-right span:nth-of-type(4) a{
+	background: url(../img/sina1.png) no-repeat center;
+} 
+.footer-right span:nth-of-type(5) a{
+	background: url(../img/email.png) no-repeat center;
+} 
+.footer-right span{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	background: #333333;
+	border-radius: 50%;
+	
+}
+.footer-right a{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	/*border-radius: 50%;*/
+	
+}
+.footer-bottom p{
+	line-height: 24px;
+	font-size: 12px;
+	color: white;
+}
+.footer-bottom p:first-of-type a{
+	padding: 0 20px;
+	background: url(../img/tiao.jpg) no-repeat right;
+	color: white;
+}
+.footer-bottom p:first-of-type a:first-of-type{
+	padding: 0;
+}
+.footer-bottom p:first-of-type a:last-of-type{
+	background: none;
+}
+.footer-bottom p:last-of-type a{
+	color: white;
+}
